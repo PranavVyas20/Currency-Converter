@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/drawable/converted_currency_background.xml" value="0.259375" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/drawable/spinner_background.xml" value="0.259375" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/layout/spinner_background.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/mipmap-anydpi-v26/final_logo.xml" value="0.259375" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/mipmap-anydpi-v26/final_logo6.xml" value="0.259375" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/mipmap-anydpi-v26/final_logo7.xml" value="0.2359375" />
+        <entry key="..\:/Users/pranav/Desktop/udacity kotlin android Projects/Converter app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
