@@ -29,9 +29,6 @@ MXN (Mexican peso)
 
 <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-     <td>Present day in purple and selected day in pink</td>
   </tr>
   <tr>
     <td><img src="screenshots/Screenshot from 2022-04-09 01-23-51.png" width=270 height=480></td>
