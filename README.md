@@ -25,4 +25,17 @@ KRW (South Korean won)
 
 MXN (Mexican peso)
 
-![Screenshot from 2022-04-09 01-23-51](https://user-images.githubusercontent.com/90063033/162526127-8c9cb78b-9f4d-48ca-b0f8-772b3c036529.png)      |         ![Screenshot from 2022-04-09 01-24-04](https://user-images.githubusercontent.com/90063033/162526913-f6cb4cee-f0f0-4199-94f7-6891d1f6b9f6.png)
+#### Flutter App Screenshots
+
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/Screenshot_1582745092.png" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745125.png" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745139.png" width=270 height=480></td>
+  </tr>
+ </table>
