@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
         val mySpinner = findViewById<Spinner>(R.id.mySpinner)
         val myspinner2 = findViewById<Spinner>(R.id.mySpinner2)
         val button = findViewById<Button>(R.id.button)
-        val line = findViewById<ImageView>(R.id.imageView3)
-        val enterAmount = findViewById<TextInputEditText>(R.id.enterAmountTv)
-        val textView: TextView = findViewById(R.id.textView)
+        val convertedAmountTv:TextView = findViewById(R.id.convertedCunnrencyTV)
+        val enterAmount = findViewById<EditText>(R.id.enterAmountTV)
+        val textView: TextView = findViewById(R.id.convertedCunnrencyTV)
 
         val currencies = listOf<String>(
             "INR","USD","LKR","CAD","PKR","EUR","YEN","HKD","IDR","KRW","MXN",
@@ -65,12 +65,14 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             val amount = enterAmount.text
+            convertedAmountTv.text = "Loading..."
+            convertedAmountTv.visibility = View.VISIBLE
             Toast.makeText(this,"$unit1 $unit2",Toast.LENGTH_SHORT).show()
             textView.text = "Loading.."
-            getCurrency(textView,amount,line)
+            getCurrency(textView,amount)
         }
     }
-    fun getCurrency(textView: TextView, userAmount: Editable?,line:ImageView){
+    fun getCurrency(textView: TextView, userAmount: Editable?){
         val client = OkHttpClient()
 
         val request = Request.Builder()
@@ -97,7 +99,6 @@ class MainActivity : AppCompatActivity() {
 
                     runOnUiThread{
                         val convertedText = finalReveived.amount.toBigDecimal().setScale(2,RoundingMode.HALF_DOWN)
-                        line.visibility = View.VISIBLE
                         textView.text = "$convertedText $unit1"
                     }
                 }
