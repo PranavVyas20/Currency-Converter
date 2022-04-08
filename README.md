@@ -25,7 +25,6 @@ KRW (South Korean won)
 
 MXN (Mexican peso)
 
-#### Flutter App Screenshots
 
 <table>
   <tr>
